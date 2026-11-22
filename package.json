@@ -1,11 +1,11 @@
 {
-  "name": "wisp-server",
+  "name": "cf-wisp",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "deploy": "wrangler deploy"
   },
-  "dependencies": {
-    "@mercuryworkshop/wisp-js": "*"
+  "devDependencies": {
+    "wrangler": "^3.0.0"
   }
 }
